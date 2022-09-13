@@ -35,12 +35,10 @@ This is the **bold** text and this is the _italic_ text and let's do
 <!-- Bullet list -->
 
 Fruits:
-
 - 사과
 - 배
 
 Other Fruits:
-
 - 사과
 - 배
 
