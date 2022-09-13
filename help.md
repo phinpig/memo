@@ -8,6 +8,8 @@
 ***
 ## 상품명 수정(front)
 - 올레tv, otv, ots  > 지니 TV 
+- olleh tv 
+### front 상품명(국문)
 <table> 
 <tr>
   <th colspan="2">상품명</th>  
@@ -72,6 +74,8 @@
   <td>ots 프라임키즈랜드</td><td>지니 TV 스카이라이프 프라임키즈랜드</td>
 </tr>
 </table>
+
+### front 셋톱박스(국문)
 
 ***
 
