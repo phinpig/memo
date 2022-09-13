@@ -7,8 +7,8 @@
 5. 실서버 반영 10월 4일 오전 08:00(비정기배포 / 관리자)
 ***
 ## 상품명 수정(front)
-- 올레tv, otv, ots  > 지니 TV 
-- olleh tv 
+- 올레tv, otv, ots  > 지니 TV  
+   
 ### front 상품명(국문)
 <table> 
 <tr>
@@ -75,7 +75,92 @@
 </tr>
 </table>
 
-### front 셋톱박스(국문)
+### 셋톱박스(국문)
+
+<table>
+    <tr>
+      <th colspan="2">As-is</th>
+      <th colspan="2">To-be</th>
+    </tr>
+    <tr>
+      <th>구분</th>
+      <th>셋톱명</th>
+      <th>구분</th>
+      <th>셋톱명</th>
+    </tr>
+    <tr>
+      <td rowspan="5">기가지니</td>
+      <td>기가지니1
+      </td>
+      <td rowspan="5">지니 TV 셋톱박스
+      </td>
+      <td>지니 TV 셋톱박스 1
+      </td>
+    </tr>
+    <tr>
+      <td>기가지니2</td>
+      <td>지니 TV 셋톱박스 2</td>
+    </tr>
+    <tr>
+      <td>기가지니3</td>
+      <td>지니 TV 셋톱박스 3</td>
+    </tr>
+    <tr>
+      <td>기가지니A</td>
+      <td>지니 TV 셋톱박스 A</td>
+    </tr>
+    <tr>
+      <td>기가지니 Table TV</td>
+      <td>지니 TV Table</td>
+    </tr>
+    <tr>
+      <td rowspan="3">olleh tv UHD
+      </td>
+      <td>UHD 1, 2, 3, 3 Air, 4
+      </td>
+      <td rowspan="3">지니 TV 셋톱박스 UHD
+      </td>
+      <td>지니 TV 셋톱박스 UHD 1, 2, 3, 3 Air, 4
+      </td>
+    </tr>
+    <tr>
+      <td>UHD 올인원
+      </td> 
+      <td>지니 TV 셋톱박스 올인원
+      </td>
+    </tr>
+    <tr>
+      <td>올인원Ⅱ
+      </td>
+      <td>지니 TV 셋톱박스 올인원2
+      </td> 
+    </tr>
+    <tr>
+      <td>olleh tv 스마트
+      </td>
+      <td>스마트</td>
+      <td>지니 TV 셋톱박스 스마트
+      </td>
+      <td>지니 TV 셋톱박스 스마트
+      </td>
+    </tr>
+    <tr>
+      <td>olleh tv (일반)
+      </td>
+      <td>기본형/개선형/경제형 등
+      </td>
+      <td>지니 TV 셋톱박스 일반형
+      </td>
+      <td>지니 TV 셋톱박스 기본형/개선형/경제형 등
+      </td>
+    </tr>
+    <tr>
+      <td>기타</td>
+      <td>올레tv탭</td>
+      <td>기타</td>
+      <td>지니 tv 탭</td>
+    </tr>
+  </table>
 
 ***
 
