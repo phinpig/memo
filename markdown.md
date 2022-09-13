@@ -62,7 +62,7 @@ Click [here](http://academy.dream-coding.com/)
 
 <!-- table -->
 
-| Header | Description | Description |
+ Header | Description | Description |
 | -----: | :---------- | :---------: |
 |  cell1 | cell2       |    cell3    |
 |  cell1 | cell2       |    cell3    |
