@@ -57,7 +57,7 @@
 </tr>
 <tr>
   <td>otv 사장님 초이스	</td>
-</tr> 지니 TV 사장님 초이스</td>
+</td> 지니 TV 사장님 초이스</td>
 </tr>
 <tr>
   <td>ots 베이직</td><td>지니 TV 스카이라이프 베이직</td>
