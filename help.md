@@ -6,6 +6,8 @@
 4. 실서버 반영 10월 4일 오전 08:00(비정기배포 / 관리자)
 ***
 ## 상품명 수정(front)
+- 올레tv > Genie TV
+- otv > 지니 TV
 <table> 
 <tr>
   <th colspan="2">상품명</th>  
