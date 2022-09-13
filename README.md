@@ -15,3 +15,4 @@
 ```html
 <a href="url" class="insInPageName">전화상담신청</a>
 ```
+  [ ] 사이를 한 칸 띄워 체크박스 만들기
