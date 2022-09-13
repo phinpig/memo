@@ -48,7 +48,7 @@
 <tr>
   <td>otv 에센스</td><td>지니 TV 에센스</td></tr>
 <tr>
-  <td>otv 베이직</td><td>지니 TV 에센스</td>
+  <td>otv 베이직</td><td>지니 TV 베이직</td>
 </tr>
 <tr>
   <td>otv 프라임홈스쿨</td><td>지니 TV 프라임홈스쿨</td>
