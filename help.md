@@ -53,7 +53,6 @@
   <td>otv 뮤즈 초이스	</td>
   <td>지니 TV 뮤즈 초이스</td>
 </tr>
-</tr>
 <tr>
   <td>otv 사장님 초이스	</td>
   <td> 지니 TV 사장님 초이스</td>
