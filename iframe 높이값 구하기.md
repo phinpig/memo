@@ -12,16 +12,17 @@
 ```
 ### 자식페이지(iframe 주소)
 ```javascript
+    const selects = document.querySelectorAll('.selector-dropdown');
     window.addEventListener('resize', iframeResize);
     window.addEventListener('load', iframeResize);
     selects.forEach(function(obj){
         obj.addEventListener('change',iframeResize )  
-    })    
+    }); 
 
 
     function iframeResize(){
-    let height = $('.channel-html').height();   
-    //console.log('자식창 높이',height);
-    window.parent.postMessage(height, '*'); 
+        const height = $('.channel-html').height();   
+        //console.log('자식창 높이',height);
+        window.parent.postMessage(height, '*'); 
     }
 ```
