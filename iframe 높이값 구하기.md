@@ -1,5 +1,5 @@
 
-### 부모페이지 (iframe 호출)
+### 부모페이지 (iframe 호출 페이지)
 ```javascript
     //부모창
 	window.addEventListener('message', postMessageController, false);
@@ -10,7 +10,7 @@
 		}
 	}
 ```
-### 자식페이지(iframe 주소)
+### 자식페이지(iframe 주소페이지)
 ```javascript
     const selects = document.querySelectorAll('.selector-dropdown');
     window.addEventListener('resize', iframeResize);
