@@ -12,7 +12,7 @@
 ```
 ### 자식페이지(iframe 주소페이지)
 ```javascript
-    const selects = document.querySelectorAll('.selector-dropdown');
+    let selects = document.querySelectorAll('.selector-dropdown');
     window.addEventListener('resize', iframeResize);
     window.addEventListener('load', iframeResize);
     selects.forEach(function(obj){
@@ -21,7 +21,7 @@
 
 
     function iframeResize(){
-        const height = $('.channel-html').height();   
+        let height = $('.channel-html').height();   
         //console.log('자식창 높이',height);
         window.parent.postMessage(height, '*'); 
     }
