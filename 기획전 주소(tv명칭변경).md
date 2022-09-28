@@ -47,4 +47,4 @@
 |  43   | 지역타켓 기획전 대전,세종지사 인터넷      |                                                        | https://m.shop.kt.com:444/m/display/olhsPlan.do?plnDispNo=1906 |
 |  43   | 지역타켓 기획전 강서지사 인터넷           |                                                        | https://m.shop.kt.com:444/m/display/olhsPlan.do?plnDispNo=1907 |
 |  43   | 지역타켓 기획전 KT M Mobile 가입페이지... |                                                        | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1908         |
-|  44   | 1431                                      |                                                        | https://m.shop.kt.com:444/m/display/olhsPlan.do?plnDispNo=1431 |
+|  44   | 1431                                      |                                                        | shop.kt.com/display/olhsPlan.do?plnDispNo=1431                 |
