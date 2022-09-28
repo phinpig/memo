@@ -5,7 +5,7 @@
 |   5   | 251만원혜택기획전(다이렉트할인)           |                                                                    | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1951         |
 |   6   | 대형TV 기획전                             |                                                                    | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1948         |
 |  7-8  | 베스트요금제 기획전                       |                                                                    | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1920         |
-|   9   | 결제안심기획전                            |                                                                    | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1920         |
+|   9   | 결제안심기획전                            |                                                                    | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1915         |
 |  10   | [히든] 요기요 기획전                      |                                                                    | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1854         |
 |  11   | 소상공인 통신 혜택 할인꿀팁 기획전        |                                                                    | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1870         |
 | 12-13 | 넷플릭스 2개월 무제한 기획전              |                                                                    | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1873         |
