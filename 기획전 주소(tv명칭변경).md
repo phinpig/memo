@@ -16,7 +16,7 @@
 |  19   | 프리미엄싱글결합이벤트 기획전             | https://dev.shop.kt.com/display/olhsPlan.do?plnDispNo=1209         | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1725         |
 |  20   | 홈스쿨 기획전                             | https://dev.shop.kt.com/display/olhsPlan.do?plnDispNo=1166         | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1656         |
 |  21   | 올레tv 쿠폰 기획전                        | https://dev.shop.kt.com/display/olhsPlan.do?plnDispNo=1156         | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1624         |
-|  22   | 넷플릭스 무제한/할인플랙                  | https://dev.shop.kt.com/display/olhsPlan.do?plnDispNo=1245         | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1595         |
+|  22   | 넷플릭스 무제한/할인플랙                  | https://dev.shop.kt.com/display/olhsPlan.do?plnDispNo=1145         | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1595         |
 |  23   | 넷플릭스 기획전                           |                                                                    | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1457         |
 |  24   | tv 프라임 키즈랜드 기획전                 |                                                                    | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1495         |
 | 25-26 | kt shop다이렉트 할인 기획전               |                                                                    | https://shop.kt.com/display/olhsPlan.do?plnDispNo=1017         |
