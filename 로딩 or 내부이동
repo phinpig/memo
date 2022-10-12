@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <script type="text/javascript" src="http://shop.kt.com/common/pc/js/jquery-1.11.3.min.js" charset="utf-8"></script>
+    <title>Momentum App</title>
+    
+     
+</head>
+<body>
+    <a href="#ccc"  class="innerLink">여기</a>
+    <div id="hello" class="hello" style="height:1000px">
+        <h1>hello</h1>
+    </div> 
+    <div id="ccc-area" style="height:1000px;background-color:#ccc">
+
+    </div>
+ 
+    <script>  
+ 		
+	/*
+	내부 이동이나 외부링크로 들어올시  해당 영역으로 이동
+	ex)
+	내부
+	<a href="#test" data-move>test</a>			
+	외부
+	aaa.html#test 
+	<div id="test"></div>
+
+	*/	
+/*** jquery */	    
+	function targetMove(_obj){
+		let _start = location.href.indexOf('#'); 		
+		let _id, _temp;	  
+		if(_obj.type == 'load' ){ // load일 경우 주소 id 값으로 이동 없으면 
+			if(_start >= 0){
+				_id = location.href.substring(_start) ;	
+			}else{
+				//내부id가 없으면 탈출
+				return false;
+			}  			
+		}else{
+			//클릭한 href id 값 가져오기
+			_id = _obj.currentTarget.hash;
+			 
+		}		 
+		let _top =  $(_id).offset().top;   
+		// pc 62, m 52 빼기
+		$("html, body").animate({scrollTop: _top - 62}, 400); 			
+	}
+	//click
+	$('[data-move]').on('click',function(e){       
+		e.preventDefault();   
+		targetMove(e);
+	});
+	//load
+	$(window).on('load',targetMove);
+	    
+ /* DOM
+	function pageMove(e){ 
+		let movePaper = '';
+		let name = '';
+		if(e.type==='load'){ 			
+			if(location.href.indexOf('#')){
+				name = location.href.split('#');	 
+				movePaper = document.querySelector('#'+name[name.length-1]); 
+			}  
+		}else{ 
+			movePaper = document.querySelector(e.view.location.hash);
+		}
+        movePaper.scrollIntoView({behavior: "smooth"})
+	}
+	const movelink = document.querySelector('[data-move]');
+	movelink.addEventListener('click',(e)=>{
+		ee.preventDefault();
+		pageMove(e)
+	})
+   	 window.addEventListener('load',pageMove);  	
+ */
+	    
+    </script>
+</body>
+</html>
+ 
