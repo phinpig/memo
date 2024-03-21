@@ -2,27 +2,34 @@
 ### 부모페이지 (iframe 호출 페이지)
 ```javascript
     //부모창
-	window.addEventListener('message', postMessageController, false);
-	function postMessageController(e){
-		if(e.origin ==='https://m.shop.kt.com:444'){
-			//console.log('자식한테 받은 높이값',e.data)
-			document.querySelector('#iphoneFrame').style.height = e.data+'px';
-		}
-	}
+    <iframe src="childre.html" id="iphoneFrame" frameborder="0" ></iframe>
+    <script>
+       	window.addEventListener('message', postMessageController, false);
+        function postMessageController(e){         
+            console.log('자식한테 받은 높이값',e.data)  
+            document.querySelector('#iphoneFrame').style.height = e.data;
+            
+        }
+    </script>
 ```
 ### 자식페이지(iframe 주소페이지)
 ```javascript
-    let selects = document.querySelectorAll('.selector-dropdown');
-    window.addEventListener('resize', iframeResize);
-    window.addEventListener('load', iframeResize);
-    selects.forEach(function(obj){
-        obj.addEventListener('change',iframeResize )  
-    }); 
-
+    <div id="objHeight" style="height:500px;">
+        height:500
+        <button onclick="big()">본문 크게</button>
+    </div>
+    
+    <script>
 
     function iframeResize(){
-        let height = $('.channel-html').height();   
+        var  height = document.querySelector('#objHeight').style.height; 
         //console.log('자식창 높이',height);
         window.parent.postMessage(height, '*'); 
     }
+    iframeResize();
+    function big(){
+        document.querySelector('#objHeight').style.height="1000px";
+        iframeResize();
+    }
+    </script>
 ```
